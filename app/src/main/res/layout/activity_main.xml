@@ -15,14 +15,16 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:cardCornerRadius="25dp"
-            android:layout_marginStart="20dp"
-            android:layout_marginEnd="20dp">
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -136,7 +138,7 @@
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
-                    <androidx.appcompat.widget.AppCompatImageView
+                    <pl.droidsonroids.gif.GifImageView
                         android:id="@+id/weather_logo"
                         android:layout_width="250dp"
                         android:layout_height="250dp"
@@ -221,10 +223,11 @@
                             android:orientation="horizontal"
                             android:gravity="center">
 
-                            <androidx.appcompat.widget.AppCompatImageView
+                            <pl.droidsonroids.gif.GifImageView
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/wind"></androidx.appcompat.widget.AppCompatImageView>
+                                android:src="@drawable/wind"
+                                />
 
                             <LinearLayout
                                 android:layout_width="0dp"

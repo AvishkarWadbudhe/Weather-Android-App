@@ -70,14 +70,14 @@ class MainActivity : AppCompatActivity() {
         }
         binding.searchOption.setOnClickListener{
             binding.location.visibility= View.GONE
-            binding.location.visibility=View.VISIBLE
+            binding.locationSearchBar.visibility=View.VISIBLE
         }
 
         binding.back.setOnClickListener{
             hideKeyboard(this)
 
             binding.location.visibility=View.VISIBLE
-            binding.location.visibility= View.GONE
+            binding.locationSearchBar.visibility= View.GONE
         }
 
 
@@ -262,31 +262,31 @@ private fun checkPermission():Boolean{
 
                 //thunderStrom
                 in 200..232->{
-                    weatherLogo.setImageResource(R.drawable.ic_storm_weather)
+                    weatherLogo.setImageResource(R.drawable.thunderstorm)
                 }
                 //Drizzle
                 in 300..321->{
-                    weatherLogo.setImageResource(R.drawable.ic_few_clouds)
+                    weatherLogo.setImageResource(R.drawable.drizzle)
                 }
                 //rainy
                 in 500..531->{
-                    weatherLogo.setImageResource(R.drawable.ic_rainy_weather)
+                    weatherLogo.setImageResource(R.drawable.rain)
                 }
                 //snow
                 in 600..622->{
-                    weatherLogo.setImageResource(R.drawable.ic_snow_weather)
+                    weatherLogo.setImageResource(R.drawable.snow)
                 }
                 //broken clouds
                 in 701..781->{
-                    weatherLogo.setImageResource(R.drawable.ic_broken_clouds)
+                    weatherLogo.setImageResource(R.drawable.storm)
                 }
                 //clear
              800->{
-                    weatherLogo.setImageResource(R.drawable.ic_clear_day)
+                    weatherLogo.setImageResource(R.drawable.sunny)
                 }
                 //clouds
                 in 801..804->{
-                    weatherLogo.setImageResource(R.drawable.ic_cloudy_weather)
+                    weatherLogo.setImageResource(R.drawable.cloudy)
                 }
                 //
                 else->{
