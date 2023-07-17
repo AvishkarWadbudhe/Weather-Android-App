@@ -17,7 +17,7 @@ This is a weather Android app developed using Kotlin, Open Weather API, Retrofit
 
 To run the app locally, follow these steps:
 
-1. Clone the repository: git clone [https://github.com/your-username/WeatherAndroidApp.git](https://github.com/AvishkarWadbudhe/Weather-Android-App.git)
+1. Clone the repository: git clone (https://github.com/AvishkarWadbudhe/Weather-Android-App.git)
 
 2. Open the project in Android Studio.
 
