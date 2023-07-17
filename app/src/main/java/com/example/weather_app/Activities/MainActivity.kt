@@ -276,8 +276,16 @@ private fun checkPermission():Boolean{
                 in 600..622->{
                     weatherLogo.setImageResource(R.drawable.snowy)
                 }
-                //broken clouds
-                in 701..781->{
+                // Mist
+                in 701..741 -> {
+                    weatherLogo.setImageResource(R.drawable.mist)
+                }
+                // Haze
+                in 741..751 -> {
+                    weatherLogo.setImageResource(R.drawable.haze)
+                }
+                // Broken clouds
+                in 751..781 -> {
                     weatherLogo.setImageResource(R.drawable.brokencloudy)
                 }
                 //clear
