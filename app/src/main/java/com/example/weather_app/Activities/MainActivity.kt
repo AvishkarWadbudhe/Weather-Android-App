@@ -262,7 +262,7 @@ private fun checkPermission():Boolean{
 
                 //thunderStrom
                 in 200..232->{
-                    weatherLogo.setImageResource(R.drawable.thunderstorm)
+                    weatherLogo.setImageResource(R.drawable.storm)
                 }
                 //Drizzle
                 in 300..321->{
@@ -270,15 +270,15 @@ private fun checkPermission():Boolean{
                 }
                 //rainy
                 in 500..531->{
-                    weatherLogo.setImageResource(R.drawable.rain)
+                    weatherLogo.setImageResource(R.drawable.rainy)
                 }
                 //snow
                 in 600..622->{
-                    weatherLogo.setImageResource(R.drawable.snow)
+                    weatherLogo.setImageResource(R.drawable.snowy)
                 }
                 //broken clouds
                 in 701..781->{
-                    weatherLogo.setImageResource(R.drawable.storm)
+                    weatherLogo.setImageResource(R.drawable.brokencloudy)
                 }
                 //clear
              800->{

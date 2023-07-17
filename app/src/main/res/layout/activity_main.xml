@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Activities.MainActivity"
-        android:background="@color/background_color">
+        android:background="@color/backgroundcolor">
 
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -23,12 +23,14 @@
             app:cardCornerRadius="25dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="30dp"
+
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@color/cardview_color"
                 android:gravity="center">
 
                 <LinearLayout
@@ -58,7 +60,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_location"
-                                android:tint="@color/black">
+                                android:tint="@color/white">
 
                             </androidx.appcompat.widget.AppCompatImageView>
 
@@ -70,7 +72,7 @@
                                 android:layout_weight="1"
                                 android:textSize="25sp"
                                 android:textStyle="bold"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:gravity="start"
                                 android:layout_margin="5dp">
 
@@ -81,7 +83,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_baseline_my_location_24"
-                                android:tint="@color/black"
+                                android:tint="@color/white"
                                 android:background="?selectableItemBackground"
                                 android:layout_margin="5dp">
 
@@ -92,7 +94,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_round_search_24"
-                                android:tint="@color/black"
+                                android:tint="@color/white"
                                 android:background="?selectableItemBackground"
                                 android:layout_margin="5dp"/>
 
@@ -116,7 +118,7 @@
                                 android:layout_height="wrap_content"
                                 android:src="@drawable/ic_arrow_back"
                                 android:background="?selectableItemBackground"
-                                android:tint="@color/black"
+                                android:tint="@color/white"
                                 android:layout_margin="5dp" />
 
                             <EditText
@@ -128,9 +130,9 @@
                                 android:hint="@string/search_city"
                                 android:imeOptions="actionSearch"
                                 android:inputType="text"
-                                android:textColorHint="@color/black"
+                                android:textColorHint="@color/white"
                                 android:background="@drawable/rounded_search"
-                                android:textColor="@color/black"
+                                android:textColor="@color/white"
                                 android:gravity="start"
                                 android:padding="10dp" />
 
@@ -152,7 +154,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="75sp"
                         android:textStyle="bold"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:gravity="center"
                         android:layout_marginTop="25dp" />
 
@@ -161,7 +163,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textSize="15sp"
-                        android:textColor="@color/black"
+                        android:textColor="@color/white"
                         android:gravity="center"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="25dp" />
@@ -184,7 +186,10 @@
                             <androidx.appcompat.widget.AppCompatImageView
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/humidity"></androidx.appcompat.widget.AppCompatImageView>
+                                android:src="@drawable/humidity"
+                                android:tint="@color/white">
+
+                            </androidx.appcompat.widget.AppCompatImageView>
 
                             <LinearLayout
                                 android:layout_width="0dp"
@@ -200,7 +205,7 @@
                                     android:layout_height="wrap_content"
                                     android:textSize="20sp"
                                     android:textStyle="bold"
-                                    android:textColor="@color/black">
+                                    android:textColor="@color/white">
 
                                 </TextView>
 
@@ -208,7 +213,8 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:text="Humidity"
-                                    android:textSize="15sp">
+                                    android:textSize="15sp"
+                                    android:textColor="@color/white">
 
                                 </TextView>
                             </LinearLayout>
@@ -243,7 +249,7 @@
                                     android:layout_height="wrap_content"
                                     android:textSize="20sp"
                                     android:textStyle="bold"
-                                    android:textColor="@color/black">
+                                    android:textColor="@color/white">
 
                                 </TextView>
 
@@ -251,6 +257,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:text="Wind Speed"
+                                    android:textColor="@color/white"
                                     android:textSize="15sp">
 
                                 </TextView>

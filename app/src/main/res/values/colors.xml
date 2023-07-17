@@ -4,6 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#000080</color>
     <color name="background_color">#F5F5F5</color>
+    <color name="backgroundcolor">#161c2a</color>
+    <color name="cardview_color">#1a2332</color>
+
 
 
     <color name="thunderstorm">#1361FD</color>
