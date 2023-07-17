@@ -10,16 +10,14 @@ This is a weather Android app developed using Kotlin, Open Weather API, Retrofit
 - Implements Retrofit for API communication with the Open Weather API
 
 ## Screenshots
-![Screenshot_1689607684](https://github.com/AvishkarWadbudhe/Weather-Android-App/assets/96787413/0b001643-038a-4fcf-b42b-6f26423490b8)
-![Screenshot_1689607695](https://github.com/AvishkarWadbudhe/Weather-Android-App/assets/96787413/d60eef2e-41f9-4745-83b9-2c969c5e04a4)
-
-
+<img src="https://github.com/AvishkarWadbudhe/Weather-Android-App/assets/96787413/0b001643-038a-4fcf-b42b-6f26423490b8" alt="Screenshot" width="400px">
+<img src="https://github.com/AvishkarWadbudhe/Weather-Android-App/assets/96787413/d60eef2e-41f9-4745-83b9-2c969c5e04a4" alt="Screenshot" width="400px">
 
 ## Installation
 
 To run the app locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/WeatherAndroidApp.git
+1. Clone the repository: git clone [https://github.com/your-username/WeatherAndroidApp.git](https://github.com/AvishkarWadbudhe/Weather-Android-App.git)
 
 2. Open the project in Android Studio.
 
