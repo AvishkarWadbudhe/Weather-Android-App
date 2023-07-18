@@ -12,9 +12,7 @@ This is a weather Android app developed using Kotlin, Open Weather API, Retrofit
 ## Screenshots
 <img src="https://github.com/AvishkarWadbudhe/Weather-Android-App/assets/96787413/0b001643-038a-4fcf-b42b-6f26423490b8" alt="Screenshot" width="200px">
 <img src="https://github.com/AvishkarWadbudhe/Weather-Android-App/assets/96787413/d60eef2e-41f9-4745-83b9-2c969c5e04a4" alt="Screenshot" width="200px">
-<img src="https://github.com/AvishkarWadbudhe/Weather-Android-App/assets/96787413/49784f99-3bdb-47ee-9b18-2a044b1185e5" alt="Screenshot" width="200px">
-https://github.com/AvishkarWadbudhe/Weather-Android-App/assets/96787413/49784f99-3bdb-47ee-9b18-2a044b1185e5
-
+<img src="https://github.com/AvishkarWadbudhe/Weather-Android-App/assets/96787413/b1e67a28-1096-4961-bfc2-4360ddbeb33a" alt="Screenshot" width="200px">
 
 
 ## Installation
